@@ -5,7 +5,7 @@ name = "docusign.dsesign"
 version = "@toml.version@"
 license = ["Apache-2.0"]
 authors = ["Ballerina"]
-keywords = ["eSignature", "Cost/Freemium", "Documents", "Collaboration", "Digital Signature"]
+keywords = ["eSignature", "Cost/Freemium", "Collaboration", "Digital Signature", "Vendor/DocuSign", "Area/Documents", "Type/Connector"]
 icon = "icon.png"
 repository = "https://github.com/ballerina-platform/module-ballerinax-docusign.dsesign"
 
