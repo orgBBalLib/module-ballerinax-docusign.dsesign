@@ -1,8 +1,13 @@
 ## Overview
 
-[DocuSign](https://www.docusign.com) is a digital transaction management platform that enables users to securely sign, send, and manage documents electronically.
+The DocuSign eSignature connector integrates with the DocuSign platform, providing APIs for tasks such as sending documents for signature, managing envelopes, and retrieving status updates. It supports [DocuSign eSignature API V2.1](https://github.com/docusign/OpenAPI-Specifications/blob/master/esignature.rest.swagger-v2.1.json).
 
-The Ballerina DocuSign eSignature connector integrates with the DocuSign platform, provides APIs for tasks such as sending documents for signature, managing envelopes, and retrieving status updates, enhancing the efficiency of electronic signature processes within Ballerina applications. It supports [DocuSign eSignature API V2.1](https://github.com/docusign/OpenAPI-Specifications/blob/master/esignature.rest.swagger-v2.1.json).
+### Key Features
+
+- Send documents for signature and manage envelopes
+- Retrieve status updates for electronic signature processes
+- Support for DocuSign eSignature API V2.1
+- Efficient management of electronic signature workflows
 
 ## Setup guide
 
@@ -52,7 +57,7 @@ In order to use the DocuSign eSignature connector, you need to first create the 
     --data-urlencode 'grant_type=authorization_code'
     ```
 
-    The response will contain your refresh token. Use `https://account-d.docusign.com/oauth/token` as the refresh URL.
+    The response will contain your refresh token. Use `https://account-d.docusign.com/oauth/token' as the refresh URL.
 
 Remember to replace `{IntegrationKey:SecretKey}`, `{iKey}`, `{redirectUri}`, `{encodedKey}`, and `{codeFromUrl}` with your actual values.
 
