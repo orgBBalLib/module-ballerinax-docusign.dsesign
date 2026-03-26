@@ -59,7 +59,7 @@ In order to use the DocuSign eSignature connector, you need to first create the 
     --data-urlencode 'grant_type=authorization_code'
     ```
 
-    The response will contain your refresh token. Use `https://account-d.docusign.com/oauth/token' as the refresh URL.
+    The response will contain your refresh token. Use `https://account-d.docusign.com/oauth/token` as the refresh URL.
 
 Remember to replace `{IntegrationKey:SecretKey}`, `{iKey}`, `{redirectUri}`, `{encodedKey}`, and `{codeFromUrl}` with your actual values.
 
